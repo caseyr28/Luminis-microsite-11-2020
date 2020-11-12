@@ -1,0 +1,34 @@
+/* 
+
+	@ CUSTOM FONTS 
+
+*/
+
+
+/*
+	@ CAVEAT
+*/
+
+@font-face {
+  font-family: 'caveat';
+  src: url('../fonts/caveat-regular.eot');
+  src: local('?'),
+   url('../fonts/caveat-regular.woff') format('woff'),
+   url('../fonts/caveat-regular.woff2') format('woff2'),
+   url('../fonts/caveat-regular.otf') format('embedded-opentype'),
+   url('../fonts/caveat-regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'caveat';
+  src: url('../fonts/caveat-bold.eot');
+  src: local('?'),
+   url('../fonts/caveat-bold.woff') format('woff'),
+   url('../fonts/caveat-bold.woff2') format('woff2'),
+   url('../fonts/caveat-bold.otf') format('embedded-opentype'),
+   url('../fonts/caveat-bold.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}

@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="48" height="48" viewBox="0 0 48 48">
+    <defs>
+        <filter id="aqruymvbea">
+            <feColorMatrix in="SourceGraphic" values="0 0 0 0 0.992157 0 0 0 0 0.749020 0 0 0 0 0.478431 0 0 0 1.000000 0"/>
+        </filter>
+        <path id="eixz6j3dob" d="M0 0L16 0 16 14 0 14z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g>
+                    <path fill="#006562" d="M47.667 26.667c0 11.598-9.402 21-21 21-11.599 0-21-9.402-21-21s9.401-21 21-21c11.598 0 21 9.402 21 21" transform="translate(-670 -621) translate(670 183) translate(0 438)"/>
+                    <path fill="#004751" d="M42 21c0 11.598-9.401 21-21 21S0 32.598 0 21 9.401 0 21 0s21 9.402 21 21" transform="translate(-670 -621) translate(670 183) translate(0 438)"/>
+                    <g filter="url(#aqruymvbea)" transform="translate(-670 -621) translate(670 183) translate(0 438)">
+                        <g transform="rotate(90 7.5 20.5)">
+                            <mask id="ypffp5r70c" fill="#fff">
+                                <use xlink:href="#eixz6j3dob"/>
+                            </mask>
+                            <path fill="#282828" d="M8.293.293c.391-.391 1.023-.391 1.414 0l6 6c.188.187.293.442.293.707 0 .266-.105.52-.293.707l-6 6c-.391.391-1.023.391-1.414 0s-.391-1.023 0-1.414L12.586 8H1c-.552 0-1-.447-1-1 0-.552.448-1 1-1h11.586L8.293 1.707c-.391-.391-.391-1.023 0-1.414" mask="url(#ypffp5r70c)"/>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

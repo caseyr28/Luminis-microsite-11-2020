@@ -1,0 +1,34 @@
+/* BLOCKS -> IMG - TXT - BACKGROUND */
+.txt-img-back{position:relative;}
+.txt-img-back .img{position:absolute;margin-bottom:0px;bottom:0px;margin-top:0px;z-index:11;}
+.txt-img-back .img img{display:block;}
+.txt-img-back .txt{position:relative;z-index:12;}
+.txt-img-back .back{position:absolute;bottom:0px;height:100%;z-index:10;}
+
+
+/* BLOCK -> CAROUSEL */
+.carousel {position:relative;}
+.carousel .slides .slick-slide{position:relative;}
+.carousel .slides .img{width:calc(100% - 20px);text-align:center;}
+.carousel .slides .img img{display:block;}
+.carousel .slides .description{background:#f6f6f6;color:#53565a;width:calc(100% - 20px);padding:10px;}
+
+.carousel .controls{text-align:center;}
+.carousel .controls .prev,
+.carousel .controls .next,
+.carousel .controls .dots{display:inline-block!important;vertical-align:middle;list-style:none;line-height:0px;margin:0px;padding:0px 15px;cursor:pointer;}
+.carousel .controls .dots ul{padding:0px;}
+.carousel .controls .dots li{margin:0px 0px 0px 0px;padding:0px 10px;display:inline-block;}
+.carousel .controls .dots button{display:inline-block;border:1px solid #3d3d3d;background:#fff;border-radius:50%;width:10px;height:10px;padding:0px;overflow:hidden;text-indent:-10000px;cursor:pointer;position:relative;top:-1px;}
+.carousel .controls .dots .slick-active button{background:#008921;border:1px solid #008921;}
+.carousel .controls .prev,
+.carousel .controls .next{width:20px;height:42px;}
+.carousel .controls .prev{background:url('../img/blocks/carousel_arrow_left_2.svg') center no-repeat;}
+.carousel .controls .next{background:url('../img/blocks/carousel_arrow_right_2.svg') center no-repeat;}
+
+
+/* BLOCK -> QUOTES */
+.carousel.quotes{}
+.carousel blockquote.wp-block-quote {padding:0px 0px;}
+.carousel blockquote.wp-block-quote p{color:#004751;font-size:20px;line-height:26px;max-width:none;font-style:italic;}
+.carousel blockquote.wp-block-quote cite{color:#004751;font-size:14px;line-height:18px;display:block;text-align:left;margin-top:20px;max-width:none;}

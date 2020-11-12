@@ -1,0 +1,166 @@
+/*
+	Theme Name: Luminis Health by Mikael D.
+	Author: Mikael D.
+	Author URI: http://flexart.net
+	Tags: HOME / LANDING PAGE
+	Version: 1.0
+*/
+
+
+.mc >.content{padding:0px 0px 0px 0px;}
+.section{padding:50px;}
+
+.s-1,
+.s-2,
+.s-3,
+.s-4{background-position:top right;background-color:transparent;background-repeat:no-repeat;background-size:cover;}
+.img{font-size:0px;}
+
+.intro .txt h1{font-size:90px;line-height:91px;font-weight:700;padding:0px 0px 10px 0px;}
+.intro .txt p{font-size:24px;line-height:38px;padding:0px 0px 10px 0px;}
+.intro .txt .btn1{margin-top:15px;}
+.section .txt h2{font-size:60px;line-height:70px;font-weight:700;padding:0px 0px 10px 0px;}
+.section .txt p{font-size:20px;line-height:38px;padding:0px 0px 10px 0px;}
+.section .txt .btn2{margin-top:35px;}
+
+
+.s-1{height:929px;margin-top:-110px;background:url('../img/pages/home/home-background-1.svg') no-repeat bottom right / cover;}
+.s-1 >.inner{background:url('../img/pages/home/home-img-1.png') no-repeat 2% bottom / 42%;height:100%;}
+.s-1 .txt{padding:180px 170px 0px 600px;}
+.s-1 .txt h1{color:#005b69;}
+.s-1 .txt p{color:#006662;}
+.s-1 .txt .btn1{margin-top:35px;}
+
+
+.s-2{height:802px;background-image:url('../img/pages/home/home-background-2.svg');}
+.s-2 >.inner{padding-top:90px;}
+.s-2 .txt{width:50%;float:left;}
+.s-2 .txt h2{color:#005b69;}
+.s-2 .txt p{color:#006662;}
+.s-2 .txt .btn2{display:block;}
+
+.s-2 .img{position:static;width:50%;float:left;text-align:center;padding-left:80px;}
+.s-2 .img img{max-width:620px;display:inline-block;margin-right:-100px;}
+.s-2 .btn2{display:none;}
+
+.s-2 .carousel.quotes{max-width:540px;position:absolute;right:0px;bottom:110px;z-index:15;}
+.s-2 .carousel.quotes .dots{font-size:14px;color:#006662;}
+.s-2 .carousel.quotes blockquote{text-align:center;margin:0px;}
+
+.s-2 .carousel.quotes blockquote >div,
+.s-2 .carousel.quotes blockquote p,
+.s-2 .carousel.quotes blockquote cite{display:inline-block;vertical-align:top;font-style:normal;font-weight:700;}
+
+.s-2 .carousel.quotes blockquote p{color:#00515c;font-size:60px;line-height:62px;border-right:1px solid #a9d7aa;padding:0px 15px 0px 0px;margin-right:15px;vertical-align:middle;}
+.s-2 .carousel.quotes blockquote cite{color:#004751;font-size:20px;line-height:26px;display:inline-block;vertical-align:middle;}
+
+
+.s-3{margin-top:-168px;background-image:url('../img/pages/home/home-background-3.svg');background-size:auto;}
+.s-3 >.inner{padding-top:120px;}
+.s-3 .img{display:block;width:45%;position:relative;float:left;margin-left:-80px;margin-bottom:-50px;}
+.s-3 .img figcaption{position:absolute;top:30%;left:75%;color:#b1dcb0;font:normal 24px/28px 'caveat',sans-serif;}
+.s-3 .txt{margin:0px;padding:150px 50px 0px 50px;width:calc(55% + 40px);float:left;}
+.s-3 .txt h2{color:#fff2c5;}
+.s-3 .txt p{color:#fff3c8;}
+
+
+.s-4{background-image:url('../img/pages/home/home-background-4.svg');background-size:cover;padding-bottom:0px;}
+.s-4 >.inner{padding-top:120px;}
+.s-4 .img{display:block;width:45%;position:relative;float:left;text-align:right;}
+.s-4 .img img{display:inline-block;}
+.s-4 .txt{margin:0px;padding:90px 0px 0px 5%;width:55%;float:left;}
+.s-4 .txt h2{color:#00515c;}
+.s-4 .txt p{color:#006662;}
+
+
+@media all and (max-width:1200px){
+	
+	.intro .txt h1{font-size:50px;line-height:52px;}
+	.intro .txt p{font-size:24px;line-height:38px;}
+	.section {}
+	.section .txt{}
+	.section .txt h2{font-size:40px;line-height:50px;font-weight:700;}
+	.section .txt p{font-size:18px;line-height:30px;}
+		
+	.s-1{height:600px;background-image:url('../img/pages/home/home-background-1-1.svg');background-position:bottom right;}
+
+	.s-1 >.inner{background-position:2% bottom;background-size:28%;height:100%;}
+	.s-1 .txt{padding:140px 12% 0px 35%;}
+	.s-1 .txt .btn1{margin-top:5px;}
+
+	.s-2{height:510px;background-image:none;background-color:#fff0c1;}
+	.s-2 >.inner{padding-top:0px;}
+	.s-2 .img img{margin-right:0px;}
+
+	.s-2 .carousel.quotes {max-width:50%;bottom:50px;right:0px;padding-top:0px;}
+	.s-2 .carousel.quotes blockquote p{font-size:40px;}
+	.s-2 .carousel.quotes blockquote cite{font-size:16px;line-height:24px;}
+	
+	
+	.s-3{height:auto;margin:0px;background-color:#fff0c1;background-image:url('../img/pages/home/home-background-3-1.svg');background-position:left top;background-size:cover;}
+	.s-3 .img{margin-bottom:-50px;}
+	.s-3 .txt{padding-top:70px;padding-right:0px;}
+		
+}
+
+
+@media all and (max-width:1080px){
+	.s-1 >.inner{background-position:2% bottom;background-size:32%;height:100%;}
+
+}	
+	
+@media all and (max-width:850px){
+	.s-2{height:auto;background-image:none;background-color:#fff0c1;}
+	.s-2 .img{float:none;width:100%;padding:20px 0px;text-align:center;max-width:460px;margin:0 auto;}
+	.s-2 .txt{float:none;width:100%;}
+	.s-2 .txt .btn2{display:none;}
+	.s-2 .btn2{display:block;margin-top:35px;text-align:center;width:100%;}
+
+	.s-2 .carousel.quotes {position:static;max-width:none;}
+	.s-2 .carousel.quotes blockquote p{font-size:40px;}
+	.s-2 .carousel.quotes blockquote cite{font-size:16px;line-height:24px;}
+	
+}
+
+@media all and (max-width:768px){
+	
+	.intro{padding:40px 20px;}
+	.intro .txt h1{font-size:44px;line-height:48px;}
+	.intro .txt p{font-size:20px;line-height:30px;}
+	.intro .img{display:none;}
+	.section {padding:40px 20px;}
+	.section .img{display:none;}
+	.section .txt {margin:0px;max-width:none;}
+	.section .txt h2{font-size:30px;line-height:40px;font-weight:700;}
+	.section .txt p{font-size:18px;line-height:30px;}
+		
+	.s-1{height:auto;margin-top:0px;background-image:url('../img/pages/home/home-background-1-1.svg');background-size:contain;}
+	.s-1 >.inner{background:none;}
+	.s-1 .txt{margin:0px;padding:0px 40px 0px 0px;max-width:none;}
+	.s-1 .txt .btn1{margin-top:25px;}
+
+	.s-3{height:auto;}
+	.s-3 >.inner{padding-top:0px;}
+
+	.s-3 .txt{padding:80px 0px;max-width:none;width:auto;}
+	.s-3 .txt .btn2{margin-top:35px;}
+	
+	.s-4{height:auto;background-size:contain;background-image:url('../img/pages/home/home-background-4-1.svg');}
+	/*.s-4{background-image:url('../img/pages/home/home-background-4.svg');background-size:cover;padding-bottom:0px;}*/
+
+	.s-4 >.inner{padding-top:0px;}
+	.s-4 .txt{margin:0px;max-width:none;width:auto;float:none;padding:50px 50px 0px 0px;}
+	
+	.btn2,
+	.btn3{text-align:center;}
+	
+	.btn2 >a,
+	.btn3 >a{width:100%;max-width:360px;}
+
+}
+
+@media all and (max-width:580px){
+	.s-3 .txt{padding:80px 0px;max-width:none;width:auto;}
+	.s-4 .txt{padding-right:0px;}
+
+}

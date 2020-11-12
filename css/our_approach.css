@@ -1,0 +1,152 @@
+/*
+	Theme Name: Luminis Health by Mikael D.
+	Author: Mikael D.
+	Author URI: http://flexart.net
+	Tags: OUR APPROACH
+	Version: 1.0
+*/
+
+
+.s-1,
+.s-2,
+.s-3,
+.s-4{background-position:top right;background-color:transparent;background-repeat:no-repeat;background-size:cover;}
+
+.intro .txt h1{font:normal 44px/64px 'caveat',sans-serif;padding:0px 0px 40px 0px;}
+.intro .txt h2{font-size:60px;line-height:70px;font-weight:700;padding:0px 0px 10px 0px;color:#00515c;}
+.intro .txt p{font-size:20px;line-height:38px;padding:0px 0px 10px 0px;color:#006662;}
+.intro .txt .btn1{margin-top:15px;}
+.section .txt h2{font-size:60px;line-height:70px;font-weight:700;padding:0px 0px 10px 0px;color:#00515c;}
+.section .txt p{font-size:20px;line-height:38px;padding:0px 0px 10px 0px;}
+.section .txt .btn2{margin-top:35px;}
+
+
+.s-1{height:1043px;margin-top:-110px;background-image:url('../img/pages/our_approach/background-1.svg');background-position:left top;}
+.s-1 .img{display:block;right:0px;width:50%;}
+.s-1 .txt{margin:0px 0px 0px 250px;padding-top:180px;max-width:600px;}
+.s-1 .txt h1{color:#00a793;}
+.s-1 .txt .btn1{margin-top:35px;}
+
+
+.s-2{height:788px;margin-top:0px;background-color:#006662;background-image:url('../img/pages/our_approach/background-2.svg');background-position:top right;background-size:auto;}
+.s-2 >.inner{background:url('../img/pages/our_approach/background-2-bottom.svg') no-repeat bottom right;height:100%;padding-bottom:180px;}
+.s-2 .txt{margin:0px 0px 0px 250px;padding-top:100px;max-width:940px;}
+.s-2 .txt h2{color:#ffd285;font-size:54px;line-height:70px;}
+.s-2 .txt p{color:#fff6cf;font-size:40px;line-height:70px;}
+
+
+.s-3{height:720px;background:#fff;}
+.s-3 .txt{margin:0px auto;padding-top:0px;max-width:620px;}
+.s-3 .txt h2{color:#005b69;}
+.s-3 .txt p{color:#006662;}
+.s-3 .txt .btn2{display:block;}
+
+.s-3 .carousel.quotes{max-width:80%;margin:50px auto;}
+.s-3 .carousel.quotes .dots{font-size:14px;color:#006662;}
+.s-3 .carousel.quotes blockquote{text-align:center;margin:0px;}
+
+.s-3 .carousel.quotes blockquote >div,
+.s-3 .carousel.quotes blockquote p,
+.s-3 .carousel.quotes blockquote cite{display:inline-block;vertical-align:middle;font-style:normal;font-weight:700;}
+
+.s-3 .carousel.quotes blockquote p{color:#00515c;font-size:60px;line-height:62px;padding:0px 48px 0px 0px;margin-right:15px;position:relative;}
+.s-3 .carousel.quotes blockquote p:after{border-right:3px solid #fdbf7a;height:242px;content:"";right:0px;position:absolute;top:50px;}
+.s-3 .carousel.quotes blockquote cite{color:#007282;font-size:28px;line-height:38px;display:inline-block;max-width:380px;font-weight:300;padding-left:48px;}
+
+.s-3 .carousel.quotes blockquote p img{width:800px;max-width:460px;max-height:340px;}
+
+.s-3 .carousel .controls{padding-top:50px;}
+
+
+
+.s-4{background-color:#fff0c1;background-image:url('../img/pages/our_approach/background-4-bottom.svg');background-position:left calc(100% + 1px);background-size:auto;}
+.s-4 >.inner{background-image:url('../img/pages/our_approach/background-4-top.svg');background-position:top right;background-size:auto;background-repeat:no-repeat;padding:110px 0px;}
+.s-4 .img{bottom:0px;right:120px;display:block;}
+
+.s-4 .txt{margin:0px 0px 0px 250px;padding-top:90px;max-width:940px;}
+.s-4 .txt h2{color:#00515c;}
+.s-4 .txt .accordion {padding-top:60px;}
+.s-4 .txt .accordion h3{color:#004751;font-size:20px;line-height:26px;font-weight:700;border-bottom:1px solid #fdbf7a;padding:0px 60px 30px 0px;margin-bottom:40px;cursor:pointer;background:url('../img/ico_arrow_down_2.svg') no-repeat right top;}
+.s-4 .txt .accordion h3.ui-state-active{background-image:url('../img/ico_arrow_up_1.svg');}
+.s-4 .txt .accordion p{color:#006662;font-size:18px;line-height:38px;font-weight:300;padding-bottom:30px;}
+
+
+@media all and (max-width:1200px){
+	
+	.intro .txt{max-width:none;}
+	.intro .txt h1{font-size:38px;line-height:44px;padding-bottom:20px;max-width:none;}
+	.intro .txt p{font-size:24px;line-height:38px;max-width:none;}
+	.section {padding:0px;}
+	.section .txt{padding:40px;max-width:none;}
+	.section .txt h2{font-size:40px;line-height:50px;font-weight:700;}
+	.section .txt p{font-size:18px;line-height:30px;}
+		
+	.s-1{height:auto;margin-top:0px;padding-bottom:375px;background-image:url('../img/pages/our_approach/background-1-1.svg');background-position:bottom left;background-size:auto;}
+	.s-1 .img{display:block;right:0px;max-width:374px;}
+	.s-1 .txt{padding:60px 30px 0px 30px;margin:0px;}
+	.s-1 .txt h1{color:#00a793;}
+	.s-1 .txt .btn1{margin-top:30px;display:inline-block;}
+
+	.s-2{height:auto;margin-top:0px;background-color:#006662;background-image:url('../img/pages/our_approach/background-2.svg');background-position:top right;background-size:30%;}
+	.s-2 >.inner{}
+	.s-2 .txt{margin:0px 0px 0px 0px;padding:60px 90px 60px 30px;max-width:940px;}
+	.s-2 .txt h2{font-size:40px;line-height:60px;}
+	.s-2 .txt p{font-size:34px;line-height:54px;font-weight:700;}
+
+	.s-3{height:auto;padding-top:0px;margin-top:-70px;}
+	.s-3 .txt{max-width:none;}
+	.s-3 .txt h2{}
+	.s-3 .txt p{}
+	
+	.s-3 .carousel.quotes{max-width:100%;}
+	.s-3 .carousel.quotes blockquote p img{max-width:333px;}
+	.s-3 .carousel.quotes blockquote cite{font-size:22px;line-height:32px;max-width:320px;}
+	
+	.s-4{background-size:75%;}
+	.s-4 >.inner{}
+	.s-4 .img{}
+
+	.s-4 .txt{margin:0px;padding-top:60px;max-width:940px;}
+
+}
+
+
+@media all and (max-width:568px){
+	
+	.intro{padding:40px 0px 0px 0px;}
+	.intro .txt h1{font-size:24px;line-height:44px;}
+	.intro .txt h2{font-size:32px;line-height:36px;}
+	.intro .txt p{font-size:18px;line-height:30px;}
+	.intro .img{display:none;}
+	.section {}
+	.section .img{display:none;}
+	.section .txt {margin:0px;max-width:none;}
+	.section .txt h2{font-size:30px;line-height:40px;font-weight:700;}
+	.section .txt p{font-size:18px;line-height:30px;}
+		
+
+	.s-1{background-image:url('../img/pages/our_approach/background-1-2.svg');}
+	.s-1 .txt{padding-top:0px;padding-bottom:80px;}
+	
+	.s-2{background-image:none;}
+	
+	.s-3 .carousel.quotes{max-width:100%;padding:0px 20px 20px 20px;margin-bottom:0px;}
+	.s-3 .carousel.quotes blockquote p{display:block;padding:0px 0px 20px 0px;margin-bottom:20px;border-bottom:1px solid #fdbf7a;margin:0px;}
+	.s-3 .carousel.quotes blockquote p:after{display:none;}
+	.s-3 .carousel.quotes blockquote p img{max-width:100%;}
+	.s-3 .carousel.quotes blockquote cite{max-width:none;display:block;margin-top:30px;}
+	
+
+	
+	.btn2,
+	.btn3{text-align:center;}
+	
+	.btn2 >a,
+	.btn3 >a{width:100%;max-width:320px;}
+
+}
+
+@media all and (max-width:380px){
+	.intro{background-size:contain;}
+	.section{background-size:contain;}
+}
