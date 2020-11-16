@@ -14,7 +14,7 @@
 
 .intro .txt h1{font:normal 44px/64px 'caveat',sans-serif;padding:0px 0px 40px 0px;}
 .intro .txt h2{font-size:60px;line-height:70px;font-weight:700;padding:0px 0px 10px 0px;color:#00515c;}
-.intro .txt p{font-size:20px;line-height:38px;padding:0px 0px 10px 0px;color:#006662;}
+.intro .txt p{font-size:20px;line-height:38px;padding:0px 0px 20px 0px;color:#006662;}
 .intro .txt .btn1{margin-top:15px;}
 .section .txt h2{font-size:60px;line-height:70px;font-weight:700;padding:0px 0px 10px 0px;color:#00515c;}
 .section .txt p{font-size:20px;line-height:38px;padding:0px 0px 10px 0px;}
@@ -25,6 +25,15 @@
 .grid >.entry .mimg{margin-bottom:20px;}
 .grid >.entry .name{color:#fff8d5;font-size:22px;line-height:26px;}
 .grid >.entry .title{color:#ffffff;font-size:14px;line-height:22px;}
+.grid >.entry{text-decoration: none;}
+.grid >.entry .name:hover{text-decoration: underline;}
+.grid >.entry img:hover{
+	opacity: 0.6;
+	-webkit-transition: opacity 0.5s 0s ease;
+	-moz-transition: opacity 0.5s 0s ease;
+	-o-transition: opacity 0.5s 0s ease;
+	transition: opacity 0.5s 0s ease;
+}
 
 .s-1{height:1043px;margin-top:-110px;background-image:url('../img/pages/about_us/background-1.svg');background-position:top left;}
 .s-1 .img{display:block;right:0px;}
@@ -76,6 +85,17 @@
 .s-4 .txt .accordion h3.ui-state-active{background-image:url('../img/ico_arrow_up_1.svg');}
 .s-4 .txt .accordion p{color:#006662;font-size:18px;line-height:38px;font-weight:300;padding-bottom:30px;}
 
+.s-5{margin-top:-110px;background-image:url('../img/pages/about_us/background-4-bottom.svg');background-position: left calc(100% + 1px); background-repeat: no-repeat;}
+.s-5 .img{    
+	right: 10%;
+    position: absolute;
+    top: 290px;
+	width: 250px;
+}
+.s-5 .txt{margin:0px 0px 130px 250px;padding-top:180px;max-width:600px;}
+.s-5 .txt h1{color:#00a793;}
+.s-5 .txt .btn1{margin-top:35px;}
+
 
 @media all and (max-width:1200px){
 	
@@ -109,6 +129,15 @@
 	.s-4 .img{}
 
 	.s-4 .txt{margin:0px;padding-top:180px;}
+
+	.s-5 {
+		background-size: 75%;
+	}
+	.s-5 .txt{    padding: 60px 30px 0px 30px;
+		margin: 130px 0;}
+	.s-5 .img{    
+		display: none;
+	}
 
 }
 
@@ -156,7 +185,11 @@
 	.s-3 .carousel.quotes blockquote cite{max-width:none;display:block;}
 	.s-2 .carousel.quotes blockquote cite .big{font-size:60px;}
 	
-
+	.s-5 .txt{    padding: 60px 30px 0px 30px;
+		margin: 50px 0;}
+	.s-5 .img{    
+		display: none;
+	}
 	
 	.btn2,
 	.btn3{text-align:center;}
