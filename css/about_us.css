@@ -17,7 +17,7 @@
 .intro .txt p{font-size:20px;line-height:38px;padding:0px 0px 20px 0px;color:#006662;}
 
 /* Text size for leadership detail */
-.intro .txt .small-text{font-size:18px;line-height:30px;color:#000; max-width: 100%;margin: 0 60px 0 0;} 
+.intro .txt .small-text{font-size:18px;line-height:30px;color:#000; max-width:90%;margin: 0 60px 0 0;} 
 
 .intro .txt .btn1{margin-top:15px;}
 .section .txt h2{font-size:60px;line-height:70px;font-weight:700;padding:0px 0px 10px 0px;color:#00515c;}
@@ -109,7 +109,8 @@
 .leadership img{
     flex-basis: auto;
     align-self: end;
-    margin: 110px 20px 0 0;
+	margin: 6px 20px 0 0;
+	float: left;
 }
 .leadership-details{
 	flex-grow: 1;
@@ -159,7 +160,7 @@
 		margin: 60px 0;}
 
 	.leadership img{
-		margin: 70px 20px 0 0;
+		margin: 6px 20px 0 0;
 	}
 
 }
@@ -175,6 +176,8 @@
 	.s-2 .carousel.quotes blockquote cite{max-width:none;display:block;margin-top:30px;padding-left:0px;}
 
 	.s-2 .carousel.quotes blockquote cite .big{font-size:60px;}
+	.intro .txt .small-text{max-width: 90%;} 
+
 }
 
 @media all and (max-width:650px){
@@ -184,6 +187,8 @@
 	.leadership img{
 		display: none;
 	}
+	.intro .txt .small-text{max-width: 100%;} 
+
 }
 
 @media all and (max-width:568px){
